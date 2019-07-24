@@ -1,0 +1,16 @@
+{
+  "name": "db_migration",
+  "version": "1.0.0",
+  "description": "Project used to migrate data to mongodb",
+  "main": "index.js",
+  "scripts": {
+    "up": "./node_modules/.bin/migrate-mongo up",
+    "down": "./node_modules/.bin/migrate-mongo down"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "migrate-mongo": "^6.0.1",
+    "mongodb": "^3.3.0-beta2"
+  }
+}
